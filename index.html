@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Stock Gapping Table</title>
+    <link rel="stylesheet" href="styles.css" />
+  
+    <!-- Axios -->
+    <!--<script type="module" src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script> -->
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+
+  </head>
+  <body>
+    <h1>Top 10 Popular Stocks</h1>
+    <div id="controls">
+      <button id="fetchOnceBtn" class="btn">Get Data on Click</button>
+      <button id="fetchEvery20Btn" class="btn">Get Data Every 20 mins</button>
+    </div>
+    <div id="errorMessage" class="hidden"></div>
+    <table id="stocksTable">
+      <thead>
+        <tr>
+          <th>Symbol</th>
+          <th>Gap %</th>
+          <th>Price</th>
+          <th>Float (M)</th>
+          <th>Relative Volume (%)</th>
+          <th>Volume</th>
+          <th>News Alert</th>
+          <th>Spread</th>
+          <th>Easy to Borrow</th>
+          <th>Short Interest (%)</th>
+          <th>Short Borrow Interest Rate (%)</th>
+          <th>Halt Levels</th>
+          <th>Buy</th>
+          <th>Sell</th>
+        </tr>
+      </thead>
+      
+      <tbody id="stocksTableBody"></tbody>
+    </table>
+    <script src="app.js"></script>
+    <!--<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  -->
+
+  </body>
+</html>
+

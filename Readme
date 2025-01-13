@@ -1,0 +1,12 @@
+github location: 
+https://github.com/BusyBiee1/2025-01-12-SBA-308A-JavaScript-Web-Application-API.git
+local: 
+/StockAPI-Alphavantage (master)
+
+
+Read me:
+This applicaiton uses AlphaVantage API to get 10 most popular stocks. 
+The user can buy and sell these stocks (but only 1 qty at a time) from the app
+Their activity of buy and sell is displayed as if it was excuted by calling the Placeholder API
+
+This alphavantage api allows only 25 calls per day!
